@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+body {
+    background-color: #222;
+    color: white;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: montserrat;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+main h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    
+}
+
+main #queryform form{
+    display: flex;
+    width: 100%;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+main #queryform input {
+    flex: 1;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+main #queryform button {
+    background-color:#017adc;
+    color: white;
+    font-weight: 700;
+    border-radius: 12px;
+    padding: 5px; 
+    border: none;          
+}
+
+main #queryform button:hover {
+    background-color: #0d68ad;
+    transition: 0.3s ease-in;
+}
+
+main .response {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .response #data h2 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+main .response #data span {
+    font-weight: bold;
+    font-size: 3rem;
+}
